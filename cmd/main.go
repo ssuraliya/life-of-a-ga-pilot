@@ -1,7 +1,7 @@
 package main
 
-import "life-of-a-ga-pilot/internal/app/server"
+import "life-of-a-ga-pilot/internal/app/cmd"
 
 func main() {
-	server.Run()
+	cmd.Run()
 }
